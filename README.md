@@ -1,4 +1,4 @@
-# Projecte XXXXXXXXXXXXX
+# Projecte Retro
 
 >**Autors:** 
 >**Versió: **

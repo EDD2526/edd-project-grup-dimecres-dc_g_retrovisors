@@ -613,6 +613,18 @@
     [
       "a9cf8edd-cd44-4958-b775-951afc8c27af",
       "Root"
+    ],
+    [
+      "e3fcd7bc-743c-48fb-bdcb-ba47fa296448",
+      "Microcontrolador"
+    ],
+    [
+      "d3554d12-72fa-4385-8426-b60739af6be0",
+      "Alimentació"
+    ],
+    [
+      "9be4c8d4-69f1-4b7b-adb7-2777fc124923",
+      "Potencia"
     ]
   ],
   "text_variables": {}

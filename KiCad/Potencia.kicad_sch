@@ -901,6 +901,367 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Management:BTS7004-1EPP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BTS7004-1EPP"
+				(at 7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:Infineon_PG-TSDSO-14-22"
+				(at -22.86 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BTS7004-1EPP-DS-v01_00-EN.pdf?fileId=5546d4626102d35a016147550a725555"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Smart High-Side Power Switch, PROFET, One Channel, 12V, 15A, Rds(on) 4.4mΩ, PG-TSDSO-14-22"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BTS7004"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Infineon*TSDSO*22*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BTS7004-1EPP_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BTS7004-1EPP_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "IS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1037,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 39.37) (xy 34.29 31.75)
+			(xy 34.29 39.37) (xy 34.29 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 31.75) (xy 95.25 31.75)
+			(xy 34.29 26.67) (xy 95.25 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1077,7 +1438,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 31.75) (xy 95.25 39.37)
+			(xy 95.25 26.67) (xy 95.25 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1537,6 +1898,113 @@
 			(project "Retrovisors_Carlos_Soler_Ingrid_Lopez"
 				(path "/a9cf8edd-cd44-4958-b775-951afc8c27af/9be4c8d4-69f1-4b7b-adb7-2777fc124923"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:BTS7004-1EPP")
+		(at 142.24 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c220fbb-d51d-4909-b494-89f9a961aa42")
+		(property "Reference" "U1"
+			(at 156.21 62.1598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTS7004-1EPP"
+			(at 156.21 64.6998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Infineon_PG-TSDSO-14-22"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BTS7004-1EPP-DS-v01_00-EN.pdf?fileId=5546d4626102d35a016147550a725555"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Smart High-Side Power Switch, PROFET, One Channel, 12V, 15A, Rds(on) 4.4mΩ, PG-TSDSO-14-22"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "24d5db99-c78e-4ade-bec3-0d8af2907ce5")
+		)
+		(pin "1"
+			(uuid "37131ab9-f6cb-422e-8441-0d3a3121d804")
+		)
+		(pin "6"
+			(uuid "30ca16fa-aae9-446b-a80e-6a32ccf5301c")
+		)
+		(pin "2"
+			(uuid "c19abe93-b3d2-4a40-b522-549773821fb0")
+		)
+		(pin "3"
+			(uuid "7c00d824-9e8a-4f53-af69-254f35cd8473")
+		)
+		(pin "15"
+			(uuid "0dea5d1f-035d-4121-adba-5416e1422579")
+		)
+		(pin "5"
+			(uuid "24596103-1af0-4eff-8985-43c50652cb93")
+		)
+		(pin "7"
+			(uuid "aa0407ba-62c8-487c-9d69-0c3165117b1b")
+		)
+		(pin "11"
+			(uuid "4f20157c-9ca9-499d-b3c9-1ba19a498e6f")
+		)
+		(pin "10"
+			(uuid "c3e8f0ad-ea1c-46f0-a67f-cf30f5b9ace6")
+		)
+		(pin "12"
+			(uuid "cb35d1e5-4776-40cd-9bf9-e8ea4ad7a663")
+		)
+		(pin "14"
+			(uuid "efae21e0-b8ff-4ffd-a385-b377f62bc45f")
+		)
+		(pin "8"
+			(uuid "4fa56485-7098-4164-9c12-0cdd6d13af96")
+		)
+		(pin "9"
+			(uuid "d9a6e7f0-399d-4805-810f-b38096cd18e8")
+		)
+		(pin "13"
+			(uuid "8ac4e593-23dc-41e3-bf5d-c169f931dec3")
+		)
+		(instances
+			(project "Retrovisors_Carlos_Soler_Ingrid_Lopez"
+				(path "/a9cf8edd-cd44-4958-b775-951afc8c27af/9be4c8d4-69f1-4b7b-adb7-2777fc124923"
+					(reference "U1")
 					(unit 1)
 				)
 			)

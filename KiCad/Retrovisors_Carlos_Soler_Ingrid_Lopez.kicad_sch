@@ -102,7 +102,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e3fcd7bc-743c-48fb-bdcb-ba47fa296448")
-		(property "Sheetname" "Microcontrolador"
+		(property "Sheetname" "Digital"
 			(at 11.938 141.478 0)
 			(effects
 				(font
@@ -111,7 +111,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "Digital.kicad_sch"
 			(at 13.462 194.818 0)
 			(effects
 				(font

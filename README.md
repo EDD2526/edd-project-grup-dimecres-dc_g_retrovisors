@@ -1,19 +1,20 @@
 View this project on [CADLAB.io](https://cadlab.io/project/30190). 
 
-# Projecte Retro
+# Projecte Retrovisors
 
->**Autors:** 
->**Versió: **
+>**Autors:Carlos Soler Fernandez, Ingrid ** 
+>**Versió: 1.00**
 
 ----------
 
 ## Objectiu
 
->PCB per ...
+>PCB per poder moure els retrovisors de un cotxe, configurar els leds de canvi de direccio i angle mort i configurar el defoger
 
 
 ## Diagrama de blocs
 
+![Diagrama de Blocs](DiagramadeBlocs.png)
 
 ### Descripció/funcionalitat de cada bloc
 

@@ -244,7 +244,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1168400|1143000|78e43a19-e7f5-47f8-b210-b6eb4a1aa7de|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af|/a9cf8edd-cd44-4958-b775-951afc8c27af|",
+        "Esta conectadoç"
+      ],
+      [
+        "power_pin_not_driven|408940|2514600|291e4bd9-50ea-4099-8a8a-8c29defead34|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af|/a9cf8edd-cd44-4958-b775-951afc8c27af|",
+        "esta conectado"
+      ],
+      [
+        "power_pin_not_driven|850900|2374900|f3a076ac-8f22-4ea6-9242-734d57a1d008|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af|/a9cf8edd-cd44-4958-b775-951afc8c27af|",
+        "esta conectado"
+      ],
+      [
+        "power_pin_not_driven|952500|2451100|a036726e-6801-4d90-8b15-07b1e4df81fa|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af|/a9cf8edd-cd44-4958-b775-951afc8c27af|",
+        "esta conectado"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -491,6 +508,34 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VBAT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -500,8 +545,20 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "DLY_D"
+        "netclass": "VBAT",
+        "pattern": "VBAT_PROT"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "GNDPWR"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "CAL_R"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "CAL_L"
       }
     ]
   },

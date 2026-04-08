@@ -693,6 +693,18 @@
     [
       "a9cf8edd-cd44-4958-b775-951afc8c27af",
       "Root"
+    ],
+    [
+      "43ca95c1-fc91-462b-8a0c-15738b500f4c",
+      "Digital"
+    ],
+    [
+      "b8e06db1-76a8-45c4-8cb5-d5e2adcbfa40",
+      "Alimentació"
+    ],
+    [
+      "bcd2f2ee-8367-4dc4-b798-6c0c11179178",
+      "Poténcia"
     ]
   ],
   "text_variables": {}

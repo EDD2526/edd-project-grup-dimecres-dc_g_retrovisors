@@ -3,13 +3,16 @@ View this project on [CADLAB.io](https://cadlab.io/project/30190).
 # Projecte Retrovisors
 
 >**Autors:Carlos Soler Fernandez, Ingrid ** 
->**Versió: 1.00**
+>**Versió: 1.01**
 
 ----------
 
 ## Objectiu
 
->PCB per poder moure els retrovisors de un cotxe, configurar els leds de canvi de direccio i angle mort i configurar el defoger
+>Poder obrir y tancar els retrovisors del cotxe
+>Crear els leds de canvi de dirección i angle mort 
+>Crear un defoger
+>Poder ajustar els retrovisors del cotxe
 
 
 ## Diagrama de blocs

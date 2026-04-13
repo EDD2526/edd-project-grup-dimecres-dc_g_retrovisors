@@ -519,7 +519,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.7,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
@@ -529,11 +529,11 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "VBAT",
+        "name": "digital",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -545,20 +545,36 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "VBAT",
+        "netclass": "digital",
         "pattern": "VBAT_PROT"
       },
       {
-        "netclass": "VBAT",
+        "netclass": "GND",
         "pattern": "GNDPWR"
       },
       {
-        "netclass": "VBAT",
+        "netclass": "GND",
         "pattern": "CAL_R"
       },
       {
-        "netclass": "VBAT",
+        "netclass": "GND",
         "pattern": "CAL_L"
+      },
+      {
+        "netclass": "digital",
+        "pattern": "SDATA"
+      },
+      {
+        "netclass": "digital",
+        "pattern": "SCLK"
+      },
+      {
+        "netclass": "digital",
+        "pattern": "/Digital/CAN-"
+      },
+      {
+        "netclass": "digital",
+        "pattern": "/Digital/CAN+"
       }
     ]
   },

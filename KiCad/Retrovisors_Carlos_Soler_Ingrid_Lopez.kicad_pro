@@ -570,11 +570,11 @@
       },
       {
         "netclass": "digital",
-        "pattern": "/Digital/CAN-"
+        "pattern": "/Digital/RX"
       },
       {
         "netclass": "digital",
-        "pattern": "/Digital/CAN+"
+        "pattern": "/Digital/TX"
       }
     ]
   },

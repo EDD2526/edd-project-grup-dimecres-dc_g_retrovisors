@@ -13,23 +13,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 16.51 0)
+			(property "Reference" "J2"
+				(at 6.858 9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "DE9_Plug_MountingHoles"
-				(at 0 14.605 0)
+				(at 7.874 -16.256 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -47,13 +49,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "9-pin male plug pin D-SUB connector, Mounting Hole"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector plug male D-SUB DB9"
@@ -458,24 +459,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 3.81)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -869,6 +852,463 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DE9_Plug_MountingHoles_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J3"
+				(at 5.334 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DE9_Plug_MountingHoles"
+				(at 9.144 -11.938 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector plug male D-SUB DB9"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Male*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DE9_Plug_MountingHoles_1_0_1"
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy 0.508 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy 0.508 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -13.335) (xy -3.81 13.335) (xy 3.81 9.525) (xy 3.81 -9.525) (xy -3.81 -13.335)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.778 10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DE9_Plug_MountingHoles_1_1_1"
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2064,7 +2504,7 @@
 					)
 				)
 			)
-			(property "Value" "PIC18F2580-I_SO"
+			(property "Value" "PIC24H"
 				(at 24.13 6.35 0)
 				(effects
 					(font
@@ -2072,7 +2512,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOIC127P1030X265-28N"
+			(property "Footprint" "AA_footprints:SOIC127P1030X265-28N"
 				(at 54.61 -94.92 0)
 				(effects
 					(font
@@ -2092,13 +2532,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Micro,PIC,32K Fl,SOIC28,PIC18F2580-I/SO"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Height" "2.65"
@@ -2625,7 +3064,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2643,7 +3082,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4135,16 +4574,8 @@
 		(uuid "12e45d29-e795-4afc-9d9c-bf0b5a068e54")
 	)
 	(no_connect
-		(at 244.094 51.816)
-		(uuid "1f78bbf7-3f71-4ec2-ad24-8a83e0f27fe7")
-	)
-	(no_connect
 		(at 158.242 78.74)
 		(uuid "2644ae62-e802-4c6a-9a99-e6edd1745d3e")
-	)
-	(no_connect
-		(at 165.862 83.82)
-		(uuid "704c88bf-70da-4707-995c-7b85b328d570")
 	)
 	(no_connect
 		(at 236.474 26.416)
@@ -5551,6 +5982,16 @@
 		)
 		(uuid "061939e3-4fec-447c-b8a5-22bc0f245172")
 	)
+	(label "OSC2"
+		(at 74.93 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fbd38f7-32ed-4a4c-976d-702dd4b07ede")
+	)
 	(label "CAN+"
 		(at 230.378 39.116 0)
 		(effects
@@ -5583,6 +6024,16 @@
 			(justify left bottom)
 		)
 		(uuid "bcbd8c8e-f4b7-4ec4-a964-b49b1e40827a")
+	)
+	(label "OSC1"
+		(at 69.85 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd6e0a20-c2f0-4a8d-bd0b-abc2fb40d0d3")
 	)
 	(global_label "DLY_U"
 		(shape output)
@@ -6320,6 +6771,7 @@
 		)
 	)
 	(symbol
+		(lib_name "DE9_Plug_MountingHoles_1")
 		(lib_id "Connector:DE9_Plug_MountingHoles")
 		(at 165.862 68.58 0)
 		(unit 1)
@@ -6346,7 +6798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AA_footprints:DSUB-9_Female_Vertical_Pitch2.77x2.84mm_MountingHoles"
+		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
 			(at 165.862 68.58 0)
 			(effects
 				(font
@@ -6355,7 +6807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 165.862 68.58 0)
 			(effects
 				(font
@@ -6371,9 +6823,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "0"
-			(uuid "d77be645-b2c4-43a4-ab16-6f8dedfe226d")
 		)
 		(pin "1"
 			(uuid "3fe053d2-f6cf-4c30-9e09-0fc3a3e205dd")
@@ -6430,7 +6879,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.736 40.386 0)
+			(at 52.07 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9190,7 +9639,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 51.816 51.816 0)
+			(at 54.356 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10031,7 +10480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AA_footprints:DSUB-9_Female_Vertical_Pitch2.77x2.84mm_MountingHoles"
+		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
 			(at 244.094 36.576 0)
 			(effects
 				(font
@@ -10040,7 +10489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 244.094 36.576 0)
 			(effects
 				(font
@@ -10056,9 +10505,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "0"
-			(uuid "9a322a59-4a83-41b0-aa4e-cfa39a4c495b")
 		)
 		(pin "1"
 			(uuid "7b9915cd-84b4-44a8-886c-c6a253e1b17f")

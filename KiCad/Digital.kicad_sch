@@ -4514,6 +4514,12 @@
 		(uuid "0e77b24b-3e8d-4449-8ee2-d9d483a1f124")
 	)
 	(junction
+		(at 132.08 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10e18149-91a4-403a-98e5-91096155fec1")
+	)
+	(junction
 		(at 63.754 56.388)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4578,12 +4584,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c3d1c1c-2462-4fb3-b8f5-ba058589cfb2")
-	)
-	(junction
-		(at 132.08 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d08165e-276f-487c-88d7-681753a03235")
 	)
 	(junction
 		(at 29.21 138.43)
@@ -4965,6 +4965,26 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 74.93) (xy 119.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a375f8-1cdf-415c-b64e-8b30b053f90c")
+	)
+	(wire
+		(pts
+			(xy 119.38 74.93) (xy 119.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b3a8fd-d24e-4982-bfa0-94b56967d79b")
+	)
+	(wire
+		(pts
 			(xy 236.474 41.656) (xy 230.378 41.656)
 		)
 		(stroke
@@ -5032,6 +5052,16 @@
 			(type default)
 		)
 		(uuid "4a95c0fb-1eb1-413b-8ce4-492c38352eed")
+	)
+	(wire
+		(pts
+			(xy 132.08 69.85) (xy 132.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ced4112-2d38-40d1-9c5f-be2160fb7b35")
 	)
 	(wire
 		(pts
@@ -5195,6 +5225,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 82.55) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae740a0-9606-47a4-b9ed-1e2783566565")
+	)
+	(wire
+		(pts
 			(xy 91.44 135.89) (xy 91.44 134.62)
 		)
 		(stroke
@@ -5262,16 +5302,6 @@
 			(type default)
 		)
 		(uuid "74f359bf-f623-4a76-8c19-84587974a007")
-	)
-	(wire
-		(pts
-			(xy 123.19 82.55) (xy 132.08 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76020491-f15e-420a-9f0b-11f11799619d")
 	)
 	(wire
 		(pts
@@ -5362,16 +5392,6 @@
 			(type default)
 		)
 		(uuid "893bc82f-82fa-48c3-befd-22e2c60bb313")
-	)
-	(wire
-		(pts
-			(xy 132.08 82.55) (xy 132.08 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f0a5d9-a23a-45fc-8642-565f6388e846")
 	)
 	(wire
 		(pts

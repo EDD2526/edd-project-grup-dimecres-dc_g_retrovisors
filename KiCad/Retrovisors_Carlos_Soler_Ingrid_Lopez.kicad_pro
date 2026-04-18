@@ -559,6 +559,10 @@
       {
         "netclass": "VBAT",
         "pattern": "CAL_L"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "Vdrain1"
       }
     ]
   },

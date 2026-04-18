@@ -504,7 +504,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -516,6 +516,20 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.7,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VBAT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -529,13 +543,13 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "VBAT",
+        "name": "Vdrain",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "track_width": 1.0,
+        "via_diameter": 1.2,
+        "via_drill": 0.9
       }
     ],
     "meta": {
@@ -561,8 +575,24 @@
         "pattern": "CAL_L"
       },
       {
-        "netclass": "VBAT",
-        "pattern": "Vdrain1"
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain1"
+      },
+      {
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain2"
+      },
+      {
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain3"
+      },
+      {
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain4"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "FI_MOTOR"
       }
     ]
   },

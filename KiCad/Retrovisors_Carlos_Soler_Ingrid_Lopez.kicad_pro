@@ -504,7 +504,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -517,9 +517,23 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.7,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VBAT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
@@ -529,13 +543,13 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "digital",
+        "name": "Vdrain",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "track_width": 1.0,
+        "via_diameter": 1.2,
+        "via_drill": 0.9
       }
     ],
     "meta": {
@@ -545,36 +559,40 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "digital",
+        "netclass": "VBAT",
         "pattern": "VBAT_PROT"
       },
       {
-        "netclass": "GND",
+        "netclass": "VBAT",
         "pattern": "GNDPWR"
       },
       {
-        "netclass": "GND",
+        "netclass": "VBAT",
         "pattern": "CAL_R"
       },
       {
-        "netclass": "GND",
+        "netclass": "VBAT",
         "pattern": "CAL_L"
       },
       {
-        "netclass": "digital",
-        "pattern": "SDATA"
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain1"
       },
       {
-        "netclass": "digital",
-        "pattern": "SCLK"
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain2"
       },
       {
-        "netclass": "digital",
-        "pattern": "/Digital/RX"
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain3"
       },
       {
-        "netclass": "digital",
-        "pattern": "/Digital/TX"
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain4"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "FI_MOTOR"
       }
     ]
   },
@@ -720,7 +738,7 @@
     ],
     [
       "bcd2f2ee-8367-4dc4-b798-6c0c11179178",
-      "Poténcia"
+      "Potencia"
     ]
   ],
   "text_variables": {}

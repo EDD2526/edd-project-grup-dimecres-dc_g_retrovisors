@@ -2400,6 +2400,12 @@
 		(uuid "8fc60389-a10a-4a06-881e-03b62728a8ee")
 	)
 	(junction
+		(at 90.17 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92746fed-c659-41c6-9652-5bd6a3fa8c05")
+	)
+	(junction
 		(at 285.7246 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2724,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "0d23b1ae-74c8-4fdf-b00f-aee108f0aabd")
+	)
+	(wire
+		(pts
+			(xy 90.17 167.64) (xy 99.06 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e324edc-dd91-44ba-912d-3c84e2a905f2")
 	)
 	(wire
 		(pts
@@ -3567,7 +3583,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 167.64) (xy 99.06 167.64)
+			(xy 88.9 167.64) (xy 90.17 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5275,7 +5291,7 @@
 		)
 		(uuid "0a66c555-2323-4b0e-ac66-0e884393e871")
 	)
-	(label "Vdrain2"
+	(label "Vdrain10"
 		(at 349.4786 185.547 0)
 		(effects
 			(font
@@ -5285,7 +5301,7 @@
 		)
 		(uuid "241508f6-7592-4e58-8668-4a88422e65f7")
 	)
-	(label "Vdrain4"
+	(label "Vdrain3"
 		(at 178.9176 56.769 0)
 		(effects
 			(font
@@ -5295,7 +5311,7 @@
 		)
 		(uuid "384d179a-d96f-4bbe-a2c8-6e24a0ea9619")
 	)
-	(label "Vdrain1"
+	(label "Vdrain9"
 		(at 299.3136 184.785 0)
 		(effects
 			(font
@@ -5305,7 +5321,7 @@
 		)
 		(uuid "4ef8b98f-9981-4cb8-9c04-14dbf9898088")
 	)
-	(label "Vdrain1"
+	(label "Vdrain5"
 		(at 299.3136 117.221 0)
 		(effects
 			(font
@@ -5315,7 +5331,7 @@
 		)
 		(uuid "54e727ea-06bd-4c17-8da0-02bab8b127a7")
 	)
-	(label "Vdrain3"
+	(label "Vdrain8"
 		(at 348.4626 58.293 0)
 		(effects
 			(font
@@ -5325,7 +5341,7 @@
 		)
 		(uuid "744844b1-f954-43a6-99b0-0c3e21fe8c24")
 	)
-	(label "Vdrain4"
+	(label "Vdrain7"
 		(at 297.7896 57.531 0)
 		(effects
 			(font
@@ -5335,7 +5351,7 @@
 		)
 		(uuid "883512ff-6a19-4556-a6ba-7ba04701d63d")
 	)
-	(label "Vdrain3"
+	(label "Vdrain4"
 		(at 229.5906 57.531 0)
 		(effects
 			(font
@@ -5355,7 +5371,7 @@
 		)
 		(uuid "de960f2c-3924-438b-be34-7a217fc056d2")
 	)
-	(label "Vdrain2"
+	(label "Vdrain6"
 		(at 354.1014 116.967 0)
 		(effects
 			(font
@@ -12107,6 +12123,70 @@
 			(project "Retrovisors_Carlos_Soler_Ingrid_Lopez"
 				(path "/a9cf8edd-cd44-4958-b775-951afc8c27af/bcd2f2ee-8367-4dc4-b798-6c0c11179178"
 					(reference "J7-8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c182dbe1-48e5-46ad-b8e6-075bba893da9")
+		(property "Reference" "#PWR030"
+			(at 90.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 94.234 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4290a849-9d5f-495a-801f-0b0018cb038b")
+		)
+		(instances
+			(project "Retrovisors_Carlos_Soler_Ingrid_Lopez"
+				(path "/a9cf8edd-cd44-4958-b775-951afc8c27af/bcd2f2ee-8367-4dc4-b798-6c0c11179178"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

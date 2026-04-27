@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -567,11 +567,11 @@
         "pattern": "GNDPWR"
       },
       {
-        "netclass": "VBAT",
+        "netclass": "Default",
         "pattern": "CAL_R"
       },
       {
-        "netclass": "VBAT",
+        "netclass": "Default",
         "pattern": "CAL_L"
       },
       {
@@ -593,6 +593,30 @@
       {
         "netclass": "GND",
         "pattern": "FI_MOTOR"
+      },
+      {
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain5"
+      },
+      {
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain6"
+      },
+      {
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain7"
+      },
+      {
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain8"
+      },
+      {
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain9"
+      },
+      {
+        "netclass": "Vdrain",
+        "pattern": "/Potencia/Vdrain10"
       }
     ]
   },

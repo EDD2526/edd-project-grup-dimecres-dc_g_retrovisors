@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -250,8 +250,20 @@
         "Esta conectadoç"
       ],
       [
+        "power_pin_not_driven|2209800|673100|78e43a19-e7f5-47f8-b210-b6eb4a1aa7de|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af/b8e06db1-76a8-45c4-8cb5-d5e2adcbfa40|/a9cf8edd-cd44-4958-b775-951afc8c27af/b8e06db1-76a8-45c4-8cb5-d5e2adcbfa40|",
+        "Si que esta conectado"
+      ],
+      [
+        "power_pin_not_driven|393700|368300|98220f40-f062-4b8e-889c-6d2985470599|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af/b8e06db1-76a8-45c4-8cb5-d5e2adcbfa40|/a9cf8edd-cd44-4958-b775-951afc8c27af/b8e06db1-76a8-45c4-8cb5-d5e2adcbfa40|",
+        "Esta Conectado"
+      ],
+      [
         "power_pin_not_driven|408940|2514600|291e4bd9-50ea-4099-8a8a-8c29defead34|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af|/a9cf8edd-cd44-4958-b775-951afc8c27af|",
         "esta conectado"
+      ],
+      [
+        "power_pin_not_driven|838200|241300|f3a076ac-8f22-4ea6-9242-734d57a1d008|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af/b8e06db1-76a8-45c4-8cb5-d5e2adcbfa40|/a9cf8edd-cd44-4958-b775-951afc8c27af/b8e06db1-76a8-45c4-8cb5-d5e2adcbfa40|",
+        "Si que esta conectado"
       ],
       [
         "power_pin_not_driven|850900|2374900|f3a076ac-8f22-4ea6-9242-734d57a1d008|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af|/a9cf8edd-cd44-4958-b775-951afc8c27af|",
@@ -591,7 +603,7 @@
         "pattern": "/Potencia/Vdrain4"
       },
       {
-        "netclass": "GND",
+        "netclass": "Default",
         "pattern": "FI_MOTOR"
       },
       {

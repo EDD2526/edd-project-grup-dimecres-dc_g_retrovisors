@@ -4616,7 +4616,7 @@
 	)
 	(text "LDR'S ANTI-ENLLUERNAMENT\n"
 		(exclude_from_sim no)
-		(at 45.974 17.272 0)
+		(at 16.256 17.018 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4693,7 +4693,7 @@
 	)
 	(text "MICROCONTROLADOR"
 		(exclude_from_sim no)
-		(at 89.154 74.93 0)
+		(at 88.9 17.526 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -8565,10 +8565,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3763c3af-404a-4d23-b0d9-6d5fa6274135")
 		(property "Reference" "IC1"
-			(at 107.95 16.51 0)
+			(at 107.696 19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8575,7 @@
 			)
 		)
 		(property "Value" "PIC24H"
-			(at 107.95 19.05 0)
+			(at 107.188 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)

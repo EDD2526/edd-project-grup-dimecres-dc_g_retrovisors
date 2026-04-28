@@ -262,6 +262,10 @@
         "esta conectado"
       ],
       [
+        "power_pin_not_driven|546100|723900|274888dc-ec39-4101-9c05-d1877ad1e603|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af/43ca95c1-fc91-462b-8a0c-15738b500f4c|/a9cf8edd-cd44-4958-b775-951afc8c27af/43ca95c1-fc91-462b-8a0c-15738b500f4c|",
+        "Si que esta connectat"
+      ],
+      [
         "power_pin_not_driven|838200|241300|f3a076ac-8f22-4ea6-9242-734d57a1d008|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af/b8e06db1-76a8-45c4-8cb5-d5e2adcbfa40|/a9cf8edd-cd44-4958-b775-951afc8c27af/b8e06db1-76a8-45c4-8cb5-d5e2adcbfa40|",
         "Si que esta conectado"
       ],
@@ -747,6 +751,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,

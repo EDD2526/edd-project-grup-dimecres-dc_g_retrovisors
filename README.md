@@ -2,8 +2,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/30190).
 
 # Projecte Retrovisors
 
->**Autors:Carlos Soler Fernandez, Ingrid ** 
->**Versió: 1.01**
+>**Autors:Carlos Soler Fernandez, Ingrid López Sánchez ** 
+>**Versió: final (v.3)**
 
 ----------
 
@@ -13,11 +13,19 @@ View this project on [CADLAB.io](https://cadlab.io/project/30190).
 >Crear els leds de canvi de dirección i angle mort 
 >Crear un defoger
 >Poder ajustar els retrovisors del cotxe
+>Dissenyar i fabricar un sistema electrònic integral per al control de retrovisors
+>Gestionar els tres motors amb els finals de carrera on calgui
+>Incorporar un sistema que medeixi quan es produeix enlluernament
+>Planificar el muntatge de la placa tenint en compte les regles i esoecificacions del fabricant 
+>Incorporar un sistema de calefacció i sensors digitals d'angle mort
+>Assegurant la viabilitat tècnica i econòmica des del prototip fins a la producció a gran escala
+
+
 
 
 ## Diagrama de blocs
 
-![Diagrama de Blocs](DiagramadeBlocs.png)
+![Diagrama de Blocs](Diagrama_blocs.png)
 
 ### Descripció/funcionalitat de cada bloc
 

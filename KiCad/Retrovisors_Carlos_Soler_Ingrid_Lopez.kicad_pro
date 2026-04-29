@@ -246,6 +246,14 @@
   "erc": {
     "erc_exclusions": [
       [
+        "endpoint_off_grid|1988820|355600|4f91ffc8-e838-4f37-ad63-66127fa82182|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "missing_unit|927100|1689100|d2069e93-0cf4-4e3f-8890-2d431a458f9e|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af/43ca95c1-fc91-462b-8a0c-15738b500f4c|/a9cf8edd-cd44-4958-b775-951afc8c27af/43ca95c1-fc91-462b-8a0c-15738b500f4c|",
+        ""
+      ],
+      [
         "power_pin_not_driven|1168400|1143000|78e43a19-e7f5-47f8-b210-b6eb4a1aa7de|00000000-0000-0000-0000-000000000000|/a9cf8edd-cd44-4958-b775-951afc8c27af|/a9cf8edd-cd44-4958-b775-951afc8c27af|",
         "Esta conectadoç"
       ],
@@ -786,7 +794,7 @@
     ],
     [
       "bcd2f2ee-8367-4dc4-b798-6c0c11179178",
-      "Potencia"
+      "Potència"
     ]
   ],
   "text_variables": {}

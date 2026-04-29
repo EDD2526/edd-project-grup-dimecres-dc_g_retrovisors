@@ -51,10 +51,12 @@
 		)
 		(uuid "43ca95c1-fc91-462b-8a0c-15738b500f4c")
 		(property "Sheetname" "Digital"
-			(at 63.754 224.028 0)
+			(at 71.374 221.996 0)
 			(effects
 				(font
 					(size 17.78 17.78)
+					(thickness 3.556)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -104,6 +106,8 @@
 			(effects
 				(font
 					(size 17.78 17.78)
+					(thickness 3.556)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -140,11 +144,13 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bcd2f2ee-8367-4dc4-b798-6c0c11179178")
-		(property "Sheetname" "Potencia"
+		(property "Sheetname" "Potència"
 			(at 259.08 130.81 0)
 			(effects
 				(font
 					(size 17.78 17.78)
+					(thickness 3.556)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
